@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "projeto inicial de Back-End com node.js",
   "main": "sever.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+}, 
   "keywords": [
     "node.js",
     "back-end",
